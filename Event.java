@@ -9,8 +9,31 @@ public class Event {
         this.name  = name;
         this.date  = date;
         this.vanue = vanue;
-    
     }
+     public String getName()
+    {
+           return name;
+    }
+    public String getDate()
+    {
+        return date;
+    }
+    public String getVanue()
+    {
+        return vanue;
+    }
+    public void setName(String name)
+    {
+        this.name=name;
+    }
+        public void setdate(String date)
+        {
+            this.date=date;
+        }   
+        public void setvanue(String vanue)
+        {
+            this.vanue=vanue;
+        }
    
     void display ()
     {
