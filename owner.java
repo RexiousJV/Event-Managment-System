@@ -1,23 +1,20 @@
 package EventManagmentSystem;
 
-public class owner extends Person{
+public class Owner extends Person{
     private String share;
 
-    public owner(String name, String email, String phone,String share) {
-        super(name, email, phone);
-        this.share=share;
-    
+   public Owner(String share, String name, String email, String phone) {
+       super(name, email, phone);
+       this.share = share;
+   }
+   
+   
+   void display ()
+     {
+         super.display();
+         System.out.println("Share : " +share);
     }
-    
-    void display ()
-      {
-          super.display();
-          System.out.println("Share : " +share);
-     }
-    public void totalcose (){
-        System.out.println("Nothing");
-    }
-             
-     
-    
+   public void totalcose (){
+       System.out.println("Nothing");
+   }
 }
