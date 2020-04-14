@@ -8,7 +8,7 @@ public class Owner extends Person{
        this.share = share;
    }
    
-   
+   @Override
    void display ()
      {
          super.display();
