@@ -26,7 +26,7 @@ public class Stuff extends Person{
        this.dutytime = dutytime;
    }
    
-   
+   @Override
      void display() { 
        System.out.println("ID:" +ID + "dutytime: "+dutytime);
   }
